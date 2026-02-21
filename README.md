@@ -126,3 +126,8 @@ As mensagens são auto explicativas. Se você receber `Not working`, provavelmen
 # usando essa imagem "nome_da_imagem"
 
 ```
+
+```bash
+# Constroi o container com compose
+docker compose --env-file 'env/.env' up
+```
