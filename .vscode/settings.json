@@ -11,7 +11,7 @@
   "workbench.editor.labelFormat": "short",
   "editor.tabSize": 1,
   "editor.rulers": [79, 120],
-  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  // "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
   "explorer.compactFolders": false,
   "editor.minimap.enabled": false,
   "workbench.editor.enablePreview": false,

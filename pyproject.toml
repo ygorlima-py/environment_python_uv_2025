@@ -6,7 +6,11 @@ readme = "README.md"
 license = "MIT"
 authors = [{ name = "Ygor Lima", email = "ygor.limarsx@gmail.com" }]
 requires-python = ">=3.12"
-dependencies = ["python-dotenv>=1.1.0"]
+dependencies = [
+    "fastapi>=0.129.0",
+    "python-dotenv>=1.1.0",
+    "uvicorn[standard]>=0.32.0",
+]
 
 [project.urls]
 Homepage = "https://portifolio-ygor-lima.vercel.app/"
@@ -15,7 +19,7 @@ Homepage = "https://portifolio-ygor-lima.vercel.app/"
 dev = ["ruff", "pyright", "pytest", "pytest-xdist"]
 
 [project.scripts]
-environment_python_uv_2025 = "my_package.my_module:run_from_script"
+example_dockerapp = "example_dockerapp.main:home"
 
 [tool.ruff]
 line-length = 88

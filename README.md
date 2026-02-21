@@ -108,3 +108,21 @@ variáveis de ambiente. Já deixei um teste na função principal que pode respo
 - `Check dotenv: Not working. Read the README.md`
 
 As mensagens são auto explicativas. Se você receber `Not working`, provavelmente não copiou o arquivo `.env-example` para `.env`.
+
+## Configurando o Docker
+
+```bash
+# Construindo a imagem
+ docker build -f ./Dockerfile . -t nome_da_imagem
+
+```
+
+```bash
+# Entrando dentro do container
+ docker run --rm -it nome_da_imagem bash
+
+# Esse comando significa: Cria um container depois que eu sair desse 
+# container apague ele e me permita usar esse container de forma interativa
+# usando essa imagem "nome_da_imagem"
+
+```
